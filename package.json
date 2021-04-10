@@ -4,7 +4,11 @@
     "description": "Nodejs C++ addon to get device screen size",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "npm run build && node __test__/index.js",
+        "build:dev": "node-gyp build --debug",
+        "build": "node-gyp build",
+        "clean": "node-gyp clean",
+        "prepublish": "npm run build"
     },
     "repository": {
         "type": "git",
@@ -21,5 +25,13 @@
     "bugs": {
         "url": "https://github.com/avennn/nc-screen/issues"
     },
-    "homepage": "https://github.com/avennn/nc-screen#readme"
+    "homepage": "https://github.com/avennn/nc-screen#readme",
+    "devDependencies": {
+        "node-gyp": "^8.0.0"
+    },
+    "dependencies": {
+        "bindings": "^1.5.0",
+        "node-addon-api": "^3.1.0"
+    },
+    "gypfile": true
 }
