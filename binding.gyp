@@ -13,6 +13,18 @@
         'dependencies': [
             "<!(node -p \"require('node-addon-api').gyp\")"
         ],
+        'conditions': [
+            ['OS == "mac"', {
+                'include_dirs': [
+                    'System/Library/Frameworks/ApplicationServices.framework/Headers'
+                ],
+                'link_settings': {
+                    'libraries': [
+                        '-framework ApplicationServices',
+                    ]
+                }
+            }],
+        ],
         'defines': [ 'NAPI_DISABLE_CPP_EXCEPTIONS' ]
     }]
 }
