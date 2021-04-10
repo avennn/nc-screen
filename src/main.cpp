@@ -5,6 +5,7 @@
 
 // https://stackoverflow.com/questions/4921817/get-screen-resolution-programmatically-in-os-x
 // https://github.com/nodejs/node-gyp/issues/1981
+// https://github.com/davidmarkclements/screenres
 Napi::Object getInfo(const Napi::CallbackInfo& info) {
     Napi::Env env = info.Env();
     Napi::Object obj = Napi::Object::New(env);
