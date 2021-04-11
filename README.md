@@ -5,16 +5,16 @@ Nodejs C++ addon to get device screen size
 ## Compile
 
 ```sh
-sudo yarn test
+sudo yarn build
 ```
 
 or
 
 ```sh
-sudo npm run test
+sudo npm run build
 ```
 
-## TODO List
+## Todo List
 
 -   typescript
 -   npm scripts: what the difference between `node-gyp build` and `node-gyp rebuild`
@@ -26,3 +26,12 @@ sudo npm run test
 -   https://stackoverflow.com/questions/4921817/get-screen-resolution-programmatically-in-os-x
 -   https://github.com/nodejs/node-gyp/issues/1981
 -   https://github.com/davidmarkclements/screenres
+
+## Author
+
+Javen Leung
+email: 914301050@qq.com
+
+## LICENSE
+
+[MIT](./LICENSE)
