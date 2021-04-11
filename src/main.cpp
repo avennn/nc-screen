@@ -10,6 +10,7 @@ Napi::Object getInfo(const Napi::CallbackInfo& info) {
     Napi::Env env = info.Env();
     Napi::Object obj = Napi::Object::New(env);
 
+    // TODO: windows | linux
     CGDirectDisplayID displayId = CGMainDisplayID();
     unsigned int wide = CGDisplayPixelsWide(displayId);
     // unsigned int high = CGDisplayPixelsHigh(displayId);
