@@ -17,4 +17,5 @@ sudo npm run test
 ## TODO List
 
 -   windows & linux support
+-   typescript
 -   npm scripts: what the difference between `node-gyp build` and `node-gyp rebuild`
