@@ -10,15 +10,20 @@ Napi::Object getInfo(const Napi::CallbackInfo& info) {
     Napi::Env env = info.Env();
     Napi::Object obj = Napi::Object::New(env);
 
-    unsigned int width = 0;
-    unsigned int height = 0;
-
     CGDirectDisplayID displayId = CGMainDisplayID();
-    width = CGDisplayPixelsWide(displayId);
-    height = CGDisplayPixelsHigh(displayId);
+    unsigned int wide = CGDisplayPixelsWide(displayId);
+    // unsigned int high = CGDisplayPixelsHigh(displayId);
+
+    CGDisplayModeRef displayMode = CGDisplayCopyDisplayMode(displayId);
+    unsigned int width = CGDisplayModeGetPixelWidth(displayMode);
+    unsigned int height = CGDisplayModeGetPixelHeight(displayMode);
+    CGDisplayModeRelease(displayMode);
+
+    bool isRetina = width / wide == 2 ? true : false;
 
     obj.Set("width", Napi::Number::New(env, width));
     obj.Set("height", Napi::Number::New(env, height));
+    obj.Set("isRetina", Napi::Boolean::New(env, isRetina));
     return obj;
 }
 

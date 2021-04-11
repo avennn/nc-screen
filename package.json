@@ -4,7 +4,7 @@
     "description": "Nodejs C++ addon to get device screen size",
     "main": "index.js",
     "scripts": {
-        "test": "npm run build && jest",
+        "test": "sudo npm run build && jest",
         "build:dev": "node-gyp build --debug",
         "build": "node-gyp build",
         "clean": "node-gyp clean",
