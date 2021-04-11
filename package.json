@@ -11,7 +11,7 @@
         "build:dev": "node-gyp build --debug",
         "build": "node-gyp build",
         "clean": "node-gyp clean",
-        "prepublish": "npm run build"
+        "prepublish": "sudo npm run build"
     },
     "repository": {
         "type": "git",
