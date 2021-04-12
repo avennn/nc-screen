@@ -16,7 +16,6 @@ sudo npm run build
 
 ## Todo List
 
--   typescript
 -   npm scripts: what the difference between `node-gyp build` and `node-gyp rebuild`
 -   catch error boundary
 
