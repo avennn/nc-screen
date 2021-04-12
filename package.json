@@ -9,7 +9,7 @@
     "scripts": {
         "test": "sudo npm run build && jest",
         "build:dev": "node-gyp build --debug",
-        "build": "node-gyp build",
+        "build": "npm run clean && node-gyp rebuild",
         "clean": "node-gyp clean",
         "prepublish": "sudo npm run build"
     },
