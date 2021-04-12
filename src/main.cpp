@@ -1,11 +1,11 @@
 #include <napi.h>
 
 #if defined(WIN32) || defined(_WIN32) || defined(__WIN32__) || defined(__NT__)
-    #include "win.cpp"
+    #include "win.h"
 #elif __APPLE__
-    #include "osx.cpp"
+    #include "osx.h"
 #elif __linux__
-    #include 'linux.cpp'
+    #include 'linux.h'
 #endif
 
 Napi::Object Init(Napi::Env env, Napi::Object exports) {

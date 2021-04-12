@@ -9,7 +9,7 @@ Napi::Object getInfo(const Napi::CallbackInfo& info) {
     Napi::Env env = info.Env();
     Napi::Object obj = Napi::Object::New(env);
 
-    // Mac OSX 10.6?
+    // TODO: Mac OSX >= 10.6?
     CGDirectDisplayID displayId = CGMainDisplayID();
     unsigned int wide = CGDisplayPixelsWide(displayId);
     // unsigned int high = CGDisplayPixelsHigh(displayId);
