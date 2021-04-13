@@ -5,7 +5,7 @@
 ### Features
 
 -   Initial release
--   `getInfo` function for macosx getting screen info
+-   `getInfo` function for getting screen info
 
 ## v1.0.1
 
