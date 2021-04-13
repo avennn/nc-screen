@@ -21,7 +21,11 @@
     "keywords": [
         "nodejs",
         "c++",
+        "c",
+        "cpp",
         "n-api",
+        "napi",
+        "addon",
         "screen"
     ],
     "author": "",
