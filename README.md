@@ -2,6 +2,18 @@
 
 Nodejs C++ addon to get device screen size
 
+## Install
+
+```sh
+npm install nc-screen
+```
+
+or
+
+```sh
+yarn add nc-screen
+```
+
 ## Usage
 
 ```js

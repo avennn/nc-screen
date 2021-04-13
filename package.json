@@ -1,6 +1,6 @@
 {
     "name": "nc-screen",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "Nodejs C++ addon to get device screen size",
     "main": "index.js",
     "types": "index.d.ts",

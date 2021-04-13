@@ -32,3 +32,9 @@
 ### Features
 
 -   add typescript support
+
+## v1.2.2
+
+### Features
+
+-   add change log and update docs
