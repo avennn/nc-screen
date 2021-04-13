@@ -2,6 +2,14 @@
 
 Nodejs C++ addon to get device screen size
 
+## Usage
+
+```js
+const { getInfo } = require('nc-screen');
+
+console.log(getInfo()); // {width: 1920, heigth: 1080}
+```
+
 ## Compile
 
 ```sh
@@ -14,21 +22,14 @@ or
 sudo npm run build
 ```
 
-## Todo List
+## Change Log
 
--   npm scripts: what the difference between `node-gyp build` and `node-gyp rebuild`
--   catch error boundary
-
-## Reference
-
--   https://stackoverflow.com/questions/5919996/how-to-detect-reliably-mac-os-x-ios-linux-windows-in-c-preprocessor/5920028#5920028
--   https://stackoverflow.com/questions/4921817/get-screen-resolution-programmatically-in-os-x
--   https://github.com/nodejs/node-gyp/issues/1981
--   https://github.com/davidmarkclements/screenres
+You can read history changes from this [doc](./CHANGELOG.md).
 
 ## Author
 
-Javen Leung
+name: Javen Leung
+
 email: 914301050@qq.com
 
 ## LICENSE
