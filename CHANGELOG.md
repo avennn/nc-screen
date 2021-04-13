@@ -30,3 +30,9 @@
 ### Features
 
 -   add change log and update docs
+
+## v1.3.0
+
+### Improvements
+
+-   optimize typescript definition
