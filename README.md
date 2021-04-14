@@ -1,7 +1,7 @@
 # nc-screen
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/avennn/nc-screen)
-[![Coverage](https://img.shields.io/badge/coverage-100%-brightgreen)](https://github.com/avennn/nc-screen)
+[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/avennn/nc-screen)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 Nodejs C++ addon to get device screen size
