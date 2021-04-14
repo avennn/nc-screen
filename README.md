@@ -1,9 +1,9 @@
 # nc-screen
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]()
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/avennn/nc-screen)
 [![Download](https://img.shields.io/npm/dw/nc-screen)](https://www.npmjs.com/package/nc-screen)
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/avennn/nc-screen)
-[![Npm](https://img.shields.io/npm/v/nc-screen)]()
+[![Npm](https://img.shields.io/npm/v/nc-screen)](https://github.com/avennn/nc-screen)
 [![Node](https://img.shields.io/node/v/nc-screen)](./package.json)
 [![License](https://img.shields.io/npm/l/nc-screen)](./LICENSE)
 
