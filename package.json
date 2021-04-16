@@ -1,18 +1,19 @@
 {
     "name": "nc-screen",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Nodejs C++ addon to get device screen size",
     "main": "index.js",
     "types": "index.d.ts",
     "engines": {
-        "node": ">=12.0.0"
+        "node": ">=12.0.0",
+        "npm": ">=7.0.0"
     },
     "scripts": {
         "test": "sudo npm run build && jest",
         "build:dev": "node-gyp build --debug",
         "build": "npm run clean && node-gyp rebuild",
         "clean": "node-gyp clean",
-        "prepublish": "sudo npm run build"
+        "prepublishOnly": "sudo npm run build"
     },
     "repository": {
         "type": "git",

@@ -1,29 +1,16 @@
 # Change Log
 
-## v1.0.0
+## v1.4.0
 
 ### Features
 
--   Initial release
--   `getInfo` function for getting screen info
+-   lock npm version >= 7.0.0
 
-## v1.0.1
-
-### Bug Fixes
-
--   fix problem that getting error screen size on windows system when not aware of DPI
-
-## v1.1.1
+## v1.3.0
 
 ### Improvements
 
--   optimize construct of cpp code
-
-## v1.2.1
-
-### Features
-
--   add typescript support
+-   optimize typescript definition
 
 ## v1.2.2
 
@@ -31,8 +18,27 @@
 
 -   add change log and update docs
 
-## v1.3.0
+## v1.2.1
+
+### Features
+
+-   add typescript support
+
+## v1.1.1
 
 ### Improvements
 
--   optimize typescript definition
+-   optimize construct of cpp code
+
+## v1.0.1
+
+### Bug Fixes
+
+-   fix problem that getting error screen size on windows system when not aware of DPI
+
+## v1.0.0
+
+### Features
+
+-   Initial release
+-   `getInfo` function for getting screen info
