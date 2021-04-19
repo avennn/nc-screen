@@ -47,9 +47,7 @@ You can read history changes from this [doc](./CHANGELOG.md).
 
 ## Author
 
-name: Javen Leung
-
-email: 914301050@qq.com
+[Javen Leung](https://github.com/avennn)
 
 ## LICENSE
 
