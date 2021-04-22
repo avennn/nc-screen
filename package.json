@@ -29,7 +29,11 @@
         "addon",
         "screen"
     ],
-    "author": "",
+    "author": {
+        "name": "Javen Leung",
+        "email": "914301050@qq.com",
+        "url": "https://github.com/avennn"
+    },
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/avennn/nc-screen/issues"
