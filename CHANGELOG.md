@@ -1,5 +1,11 @@
 # Change Log
 
+## v1.4.1
+
+### Features
+
+-   loose node and npm version limit
+
 ## v1.4.0
 
 ### Features
