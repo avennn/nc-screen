@@ -5,7 +5,7 @@
 #elif __APPLE__
     #include "osx.h"
 #elif __linux__
-    #include 'linux.h'
+    #include "linux.h"
 #endif
 
 Napi::Object Init(Napi::Env env, Napi::Object exports) {

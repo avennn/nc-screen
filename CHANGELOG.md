@@ -1,8 +1,14 @@
 # Change Log
 
+## v1.4.2
+
+### Bug Fixes
+
+-   linux bug
+
 ## v1.4.1
 
-### Features
+### Bug Fixes
 
 -   loose node and npm version limit
 
