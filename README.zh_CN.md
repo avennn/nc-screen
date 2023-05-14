@@ -45,7 +45,7 @@ sudo npm run build
 
 ## 变更日志
 
-你可以在这里[doc](./CHANGELOG.md)看到历史变更.
+你可以从这个[文件](./CHANGELOG.md)看到历史变更.
 
 ## 作者
 
