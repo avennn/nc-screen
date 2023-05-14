@@ -1,3 +1,5 @@
+<a href="README.md">English</a>｜<a href="README.zh_CN.md">简体中文</a>
+
 # nc-screen
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/avennn/nc-screen)
@@ -24,7 +26,7 @@ yarn add nc-screen
 ## Usage
 
 ```js
-const { getInfo } = require('nc-screen');
+const { getInfo } = require("nc-screen");
 
 console.log(getInfo()); // {width: 1920, heigth: 1080}
 ```
