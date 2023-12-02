@@ -1,51 +1,51 @@
 {
-    "name": "nc-screen",
-    "version": "1.4.2",
-    "description": "Nodejs C++ addon to get device screen size",
-    "main": "index.js",
-    "types": "index.d.ts",
-    "engines": {
-        "node": ">=8.0.0",
-        "npm": ">=6.0.0"
-    },
-    "scripts": {
-        "test": "sudo npm run build && jest",
-        "build:dev": "node-gyp build --debug",
-        "build": "npm run clean && node-gyp rebuild",
-        "clean": "node-gyp clean",
-        "prepublishOnly": "sudo npm run build"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/avennn/nc-screen.git"
-    },
-    "keywords": [
-        "nodejs",
-        "c++",
-        "c",
-        "cpp",
-        "n-api",
-        "napi",
-        "addon",
-        "screen"
-    ],
-    "author": {
-        "name": "Javen Leung",
-        "email": "914301050@qq.com",
-        "url": "https://github.com/avennn"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/avennn/nc-screen/issues"
-    },
-    "homepage": "https://github.com/avennn/nc-screen#readme",
-    "devDependencies": {
-        "jest": "^26.6.3",
-        "node-gyp": "^8.0.0"
-    },
-    "dependencies": {
-        "bindings": "^1.5.0",
-        "node-addon-api": "^3.1.0"
-    },
-    "gypfile": true
+  "name": "nc-screen",
+  "version": "1.4.2",
+  "description": "Nodejs C++ addon to get device screen size",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "sudo npm run build && jest",
+    "build:dev": "node-gyp build --debug",
+    "build": "npm run clean && node-gyp rebuild",
+    "clean": "node-gyp clean",
+    "prepublishOnly": "sudo npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avennn/nc-screen.git"
+  },
+  "keywords": [
+    "nodejs",
+    "c++",
+    "c",
+    "cpp",
+    "n-api",
+    "napi",
+    "addon",
+    "screen"
+  ],
+  "author": {
+    "name": "Thomas Leung",
+    "email": "914301050@qq.com",
+    "url": "https://github.com/avennn"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avennn/nc-screen/issues"
+  },
+  "homepage": "https://github.com/avennn/nc-screen#readme",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "node-gyp": "^8.0.0"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^3.1.0"
+  },
+  "gypfile": true
 }

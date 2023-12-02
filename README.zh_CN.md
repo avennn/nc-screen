@@ -26,7 +26,7 @@ yarn add nc-screen
 ## 使用
 
 ```js
-const { getInfo } = require("nc-screen");
+const { getInfo } = require('nc-screen');
 
 console.log(getInfo()); // {width: 1920, heigth: 1080}
 ```
@@ -49,7 +49,7 @@ sudo npm run build
 
 ## 作者
 
-[Javen Leung](https://github.com/avennn)
+[Thomas Leung](https://github.com/avennn)
 
 ## 许可证
 

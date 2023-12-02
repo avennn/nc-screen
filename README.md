@@ -26,7 +26,7 @@ yarn add nc-screen
 ## Usage
 
 ```js
-const { getInfo } = require("nc-screen");
+const { getInfo } = require('nc-screen');
 
 console.log(getInfo()); // {width: 1920, heigth: 1080}
 ```
@@ -49,7 +49,7 @@ You can read history changes from this [doc](./CHANGELOG.md).
 
 ## Author
 
-[Javen Leung](https://github.com/avennn)
+[Thomas Leung](https://github.com/avennn)
 
 ## LICENSE
 
